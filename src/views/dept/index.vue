@@ -106,7 +106,7 @@ const save = async () => {
   <h1>部门管理</h1>
 
   <!-- 按钮靠页面右侧显示 -->
-  <el-button type="primary" @click="add()" style="float: right;"> + 新增部门</el-button> <br><br>
+  <el-button type="success" @click="add()" style="float: right;"> + 新增部门</el-button> <br><br>
 
   <!-- 数据展示表格 -->
   <el-table :data="tableData" border style="width: 100%;">

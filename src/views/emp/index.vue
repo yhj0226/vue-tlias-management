@@ -318,12 +318,12 @@ const deleteByIds = async () => {
 
     <el-form-item>
       <el-button type="primary" @click="handleSearch">查询</el-button>
-      <el-button @click="handleReset">清空</el-button>
+      <el-button type="info" @click="handleReset">清空</el-button>
     </el-form-item>
   </el-form>
 
 
-  <el-button type="primary" @click="addEmp"> + 新增员工</el-button>
+  <el-button type="success" @click="addEmp"> + 新增员工</el-button>
   <el-button type="danger" @click="deleteByIds"> - 批量删除</el-button>
   <br><br>
 
